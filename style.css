@@ -44,8 +44,27 @@ main {
   }
   h3 {
     margin:15px 0 5px 0;
-  }
+}
 
   footer {
     height: 50px;
     background-color: #AAAAAA;
+}
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: block;
+    padding 0 5%;
+  }
+  .main-visual-box {
+    width: 90%;
+    margin: 0 5% 0 5%;
+    margin-bottom: 20px;
+  }
+
+}
